@@ -16,15 +16,19 @@
     "@nuxtjs/markdownit": "^1.2.10",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@vue/test-utils": "^1.1.0",
+    "autoprefixer": "^9",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.5.0",
     "jest": "^26.5.0",
+    "postcss": "^7",
     "ts-jest": "^26.4.1",
     "vue-jest": "^3.0.4"
   }
