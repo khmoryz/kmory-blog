@@ -38,7 +38,11 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/markdownit',
   ],
+  markdownit: {
+    injected: true
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
